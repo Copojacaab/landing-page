@@ -87,3 +87,33 @@ header {
   width: 450px;
   height: auto;
 }
+
+/* !!!! INFO SECTION !!!! */
+/* centro il titolo della sezione */
+.info{
+    text-align: center;
+}
+ 
+/* dispongo le carte orizzontalmente e centrate */
+.info .card-container {
+    display: flex;
+    justify-content: center; 
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* faccio in modo che il testo sia allineato con l'immagine */
+    gap: 8px; /*separo il testo e l'immagine */
+    width: 150px; /* do una larghezza massima alla sezione per dare la forma che voglio al testo */
+}
+
+/* modifico le immagini per il bordo e le dimensioni */
+.card img{
+    width: 75px;
+    height: 75px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
