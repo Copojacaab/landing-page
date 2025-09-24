@@ -1,0 +1,89 @@
+/* === RESET E STILI GLOBALI === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+/* === LAYOUT GENERALE DELLE SEZIONI === */
+header, .hero, .info, .quote-section, .cta, footer {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* === SEZIONI CON SFONDO SCURO === */
+header, .hero, footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+/* === HEADER === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+/* === HERO SECTION === */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding-top: 80px;  /* Più spazio verticale */
+  padding-bottom: 80px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Spazio tra h1, p, button */
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-weight: bold;
+  align-self: flex-start; /* Allinea il bottone a sinistra */
+}
+
+.hero-img img {
+  width: 450px;
+  height: auto;
+}

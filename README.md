@@ -43,4 +43,21 @@ all'interno del main ho diverse sezioni:
         -btn
 
 l'ultima cosa che c'é da fare per quanto riguarda l'html é quello di fare il footer che possiamo fare con un semplice p
- 
+
+### CSS
+
+La prima cosa da fare é un CSS reset, cioé riazzeriamo le informaizoni che inseriscono a volte i browser. successivamente applico il font a tutta la pagina.
+
+ho messo il colore di sfondo e il colore del testo all'header e alla sezione hero(é lo stesso), adesso passo a disporre gli oggetti con flexbox.
+aggiungendo display: flex al contenitore header lo trasformo in un contenitore flessibile.
+
+ora spingo ai lati header logo e i link tramite justify-content (asse principale) e centro gli elementi verticalmente tramite align items
+
+
+ora passiamo al prossimo punto, cioé rimuovere i pallini alla lista e mettere i link in orizzontale, credo che la soluzione sia prendere l'ul esterno e applicargli flexbox in modo da usarlo come contenitore flessibile
+
+passo alla sezione hero, prima di tutto devo mettere orizzontalmente la sezione di testo e quella di immagine, lo faccio sempre tramite flexbox.
+do uno stile ai singoli elementi all'interno di hero:
+h1 main text
+hero secondary text
+bottone
