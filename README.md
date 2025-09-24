@@ -65,3 +65,10 @@ Problemi con il bottone, non riesco ad aggiungere padding interno(sospetto per t
 
 Ora passo alla sezione info, vedo che h2 e le immagini sono uno sotto l'altra (quindi non serve flexbox), mentre le quattro immagini sono una di fianco all'altra, quindi do flex al container delle card.
 adesso devo lavorare con le singole carte, tutte hanno un bordo blu arrotondato, una dimensione fissa e il testo sotto le carte é centrato. per risolvere questi problemi penso di utilizzare border radius e color per il bordo e centrare il testo facendo flex a ogni carta, inverto la direzione e faccio align item centr
+
+ora passo alla sezione della citazione, le cose da fare sono:
+
+1. colore grigio
+2. stile, dimensione e posizione della citazione
+3. stile, dimensione e posizione dell'autore
+ 

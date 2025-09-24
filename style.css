@@ -47,6 +47,11 @@ header {
   font-weight: bold;
 }
 
+header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 /* === HERO SECTION === */
 .hero {
   display: flex;
@@ -66,6 +71,7 @@ header {
 .hero h1 {
   font-size: 48px;
   font-weight: 900;
+  color: #F9FAF8;
 }
 
 .hero p {
@@ -92,6 +98,14 @@ header {
 /* centro il titolo della sezione */
 .info{
     text-align: center;
+    padding-top: 50px;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
 }
  
 /* dispongo le carte orizzontalmente e centrate */
@@ -99,6 +113,7 @@ header {
     display: flex;
     justify-content: center; 
     gap: 32px;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -111,9 +126,70 @@ header {
 
 /* modifico le immagini per il bordo e le dimensioni */
 .card img{
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
+.card p{
+    font-size: 14px;
+}
+
+/* !!!! QUOTE SECTION !!!! */
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20%; /* da ricordare, per dare spazio arioso */
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    color: #3e4a5a;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-section .author {
+    font-size: 22px;
+    text-align: right;
+    color: #313a45;
+    font-weight: bolder;
+}
+
+/* CALL TO ACTION SECTION */
+.cta{
+    background-color: #3882F6;
+    padding: 50px 100px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 100px ;
+}
+
+.cta-text p{
+    font-size: small;
+}
+
+.cta button{
+    width: 75px;
+    height: 25px;
+
+    color: white;
+    background-color: #3882F6;
+
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+/* !!!! FOOTER !!!! */
+footer{
+    display: flex;
+    justify-content: center;
+    
+    font-size: small;
+}
